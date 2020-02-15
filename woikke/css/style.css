@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+body{}
+section{
+    background-color: #FEEFF3;
+}
+h5{
+    font-size: 18px;
+    color: #F7618B;
+    text-align: center;
+    padding: 20px 0;
+}
+header{
+    padding: 25px;
+}
+li{
+    list-style: none;
+}
+a,a:hover{text-decoration: none;}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+
+.logo img{}
+
+nav{
+    max-width: 60%;
+    flex-basis: 60%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{}
+nav ul li a{
+    color: #303966;
+    text-transform: capitalize;
+    display: block;
+    padding: 18px;
+    letter-spacing: 1px;}
+nav ul li a:hover{
+     color: #F7618B;
+     transition: 0.5s ease;
+
+}
+
+
+
+
+.cart{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.cart ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.cart ul li{
+    align-items: right;
+}
+.cart ul li a{
+    color: #303966;
+    display: block;
+    padding: 10px 20px;
+    padding-right: 0;
+}
+.cart ul li a :hover{
+     color: #F7618B;
+     transition: 0.5s ease;
+}
+
+/****/
+.flower-gift-section{
+    background: no-repeat;
+    padding: 100px 0;
+}
+
+.col{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+h6{font-size: 20px;color: #F7618B;font-weight: 100;}
+h1{
+    font-size: 65px;
+    font-weight: 100;
+    line-height: 0.8;
+    color: #303966;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.col img{}
+.col a{}
+.btn{
+    color: #fff;
+    font-size: 20px;
+    background: #F86A8B;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/***                    **/
+.free-nextday{
+    text-align: center;
+    background: no-repeat;
+    padding: 50px 0;
+}
+.free-nextday h2{font-size: 40px;color: #F7618B;}
+.free-nextday h3{
+    font-size: 25px;
+    color: #303966;
+}
+
+/***********************/
+.sunday-offer{background-image: url(../images/bouquet-of-pink-and-white-petaled-flowers-733883.jpg);padding-bottom: 100px;background-position: right;background-size: cover;}
+h4{
+    font-size: 28px;
+    font-weight: 400;
+}
+.link{
+    font-size: 20px;
+    text-decoration: underline;
+    color: #F7618B;
+    text-transform: capitalize !important;
+}
+
+
+
+/****---------------------------------*/
+.shop-section{}
+.heading{}
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.shop{
+    position: relative;
+}
+.shop:hover img{}
+.shop a{
+
+color: #F86A8B;
+
+font-size: 20px;
+
+background: #fff3;
+
+padding: 10px;
+
+display: inline-block;
+
+border-radius: 10px;
+
+position: absolute;
+
+bottom: 50%;
+
+right: 50%;
+
+transform: translate(50%, 50%);
+}
+.shop:hover a{
+    background:#F86A8B;
+    color: #fff3 ;
+}
