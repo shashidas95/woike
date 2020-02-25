@@ -1,26 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
 }
 
 img{
-    max-width: 100%;
-    display: block;
+max-width: 100%;
+display: block;
 }
-body{}
-section{
-    background-color: #FEEFF3;
+body{
+    font-family: 'Slabo 27px', serif;
+
+}
+.top-header{
+    
 }
 h5{
+    font-family: 'Slabo 27px', serif;
     font-size: 18px;
     color: #F7618B;
     text-align: center;
     padding: 20px 0;
+    display: block;
+    letter-spacing: 5px;
+    background-color: #fef0f5;
 }
+
+
 header{
+    font-family: 'Slabo 27px', serif;
     padding: 25px;
 }
 li{
@@ -30,7 +41,7 @@ a,a:hover{text-decoration: none;}
 .row{
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 .align-center{
     align-items: center;
@@ -56,7 +67,8 @@ nav ul li a{
     text-transform: capitalize;
     display: block;
     padding: 18px;
-    letter-spacing: 1px;}
+    letter-spacing: 3px;
+    }
 nav ul li a:hover{
      color: #F7618B;
      transition: 0.5s ease;
@@ -103,7 +115,9 @@ nav ul li a:hover{
     width: 1200px;
     margin: auto;
 }
-h6{font-size: 20px;color: #F7618B;font-weight: 100;}
+h6{font-size: 20px;
+    color: #F7618B;
+    font-weight: 100;}
 h1{
     font-size: 65px;
     font-weight: 100;
@@ -112,7 +126,9 @@ h1{
     text-transform: capitalize;
     padding: 40px 0;
 }
-.col img{}
+.col img{
+
+}
 .col a{}
 .btn{
     color: #fff;
@@ -121,6 +137,9 @@ h1{
     padding: 10px;
     display: inline-block;
     border-radius: 10px;
+}
+.btn:hover{
+    background: #303966;
 }
 /***                    **/
 .free-nextday{
@@ -135,9 +154,15 @@ h1{
 }
 
 /***********************/
-.sunday-offer{background-image: url(../images/bouquet-of-pink-and-white-petaled-flowers-733883.jpg);padding-bottom: 100px;background-position: right;background-size: cover;}
+.sunday-offer{
+    background-image: url(../images/flowern_02_2048x.jpg);
+    margin-bottom: 200px;
+    padding: 80px 0;
+    background-position: center;
+    background-size: cover;
+}
 h4{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 400;
 }
 .link{
@@ -146,43 +171,153 @@ h4{
     color: #F7618B;
     text-transform: capitalize !important;
 }
-
-
-
 /****---------------------------------*/
-.shop-section{}
-.heading{}
+.shop-section{
+    padding: 50px 0;
+}
+.heading{text-align: center;}
 .heading h1{
-    text-align: center;
     font-size: 40px;
 }
 .shop{
-    position: relative;
+position: relative;
+overflow: hidden;
 }
-.shop:hover img{}
-.shop a{
 
-color: #F86A8B;
-
-font-size: 20px;
-
-background: #fff3;
-
+.shop img{
 padding: 10px;
-
+transition:all .3s linear;
+-webkit-transition:all .3s linear;
+-moz-transition:all .3s linear;
+}
+.shop:hover img{
+transform:scale(1.05); 
+}
+.shop a{
+background: #fff3;
+color: #f7618b;
+font-size: 20px;
+text-transform: capitalize;
+padding: 15px 40px;
 display: inline-block;
-
-border-radius: 10px;
+border-radius: 15px;
+font-weight: 500;
 
 position: absolute;
-
 bottom: 50%;
-
 right: 50%;
-
 transform: translate(50%, 50%);
+-webkit-transform: translate(50%, 50%);
+
+-moz-transform: translate(50%, 50%);
+transition:all .3s linear;
+-webkit-transition:all .3s linear;
+-moz-transition:all .3s linear;
 }
 .shop:hover a{
-    background:#F86A8B;
-    color: #fff3 ;
+    background:#303966;
+    color: #fff;
+}
+about-section{
+    background-repeat: none;
+    background-color: #F8F8FB;
+}
+
+
+/*treat someone special treat section*/
+.treat-special-section{
+    background-repeat: none;
+    padding: 100px 0;
+}
+.treat-heading h1{
+    text-align: center;
+    font-size: 40px;
+    width: 309px;
+    margin: auto;
+}
+.treat h2{
+    font-size: 32px;
+    color: #303966;
+}
+.treat p{font-size: 18px;color: #303966;}
+.treat{ 
+overflow: hidden;
+}
+.col-50{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.treat img{
+padding: 10px;
+transition:all .3s linear;
+-webkit-transition:all .3s linear;
+-moz-transition:all .3s linear;
+}
+.treat a{background: #303966;color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 15px;
+    font-weight: 500;
+    transition:all .3s linear;
+    -webkit-transition:all .3s linear;
+    -moz-transition:all .3s linear;}
+.bouquet-btn{
+position:center;
+}
+.bouquet-btn:hover{
+background: #f7618b;
+color: #fff;
+}
+.treat:hover img{
+transform: scale(1.05);
+}
+.treat-content{
+text-align: center;
+}
+.treat:hover h2{
+color: #f7618b;
+}
+
+
+
+/********************************/
+
+footer{
+    background-color: #F6FAFD;
+    text-align: center;
+    padding: 50px 0;
+}
+.col-1-4{}
+.col-1-4 {
+    max-width: 50%;
+    flex-basis: 50%;
+    text-align: left;
+    color: #5C6EB0;
+}
+.col-1-4 ul{
+    
+}
+.col-1-4 ul li{
+    padding: 10px 0px;
+}
+.col-1-4 ul li a{
+    text-decoration: none;
+    color: #5c70ba;
+    padding: 10px;
+}
+.col-1-4 ul li:hover a{
+color: #f7618b;
+padding: 10px;
+}
+
+footer h4{
+max-width: 500px;
+margin: 0 auto 30px;
+color: #5F778F;
+}
+.social-icon ul{
+display: flex;
+flex-wrap: wrap;
 }
